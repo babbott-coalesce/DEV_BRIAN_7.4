@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "4"
+mappingDefinitions:
+  PROD:
+    database: BRIAN_A
+    schema: PROD_RAW
+  SRC:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Environment
+type: Environment

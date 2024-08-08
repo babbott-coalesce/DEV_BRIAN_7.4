@@ -1,94 +1,96 @@
-steps:
-  NATION-5885f815-f161-46ab-8de3-d47ec6935357:
-    operation:
-      database: ""
-      dataset: ""
-      deployEnabled: true
-      description: ""
-      locationName: SRC
-      metadata:
-        columns:
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: ecc2b777-e0ae-4b09-9cd0-0a527ae149a7
-              stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
-            config: {}
-            dataType: NUMBER(38,0)
-            defaultValue: ""
-            description: ""
-            name: N_NATIONKEY
-            nullable: false
-            primaryKey: false
-            sourceColumnReferences:
-              - columnReferences: []
-                transform: ""
+fileVersion: 1
+id: 5885f815-f161-46ab-8de3-d47ec6935357
+name: NATION
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ecc2b777-e0ae-4b09-9cd0-0a527ae149a7
+          stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
             transform: ""
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 67cc497f-41df-486e-8fb0-7eddce4ed3fc
-              stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
-            config: {}
-            dataType: VARCHAR(25)
-            defaultValue: ""
-            description: ""
-            name: N_NAME
-            nullable: false
-            primaryKey: false
-            sourceColumnReferences:
-              - columnReferences: []
-                transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 67cc497f-41df-486e-8fb0-7eddce4ed3fc
+          stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: N_NAME
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
             transform: ""
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: fad8245f-77b4-470e-889d-07b78ab10e31
-              stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
-            config: {}
-            dataType: NUMBER(38,0)
-            defaultValue: ""
-            description: ""
-            name: N_REGIONKEY
-            nullable: false
-            primaryKey: false
-            sourceColumnReferences:
-              - columnReferences: []
-                transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fad8245f-77b4-470e-889d-07b78ab10e31
+          stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
             transform: ""
-            uniqueKey: false
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
-              columnCounter: 8d648fa6-7262-46eb-9d82-15ff419981a9
-              stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
-            config: {}
-            dataType: VARCHAR(152)
-            defaultValue: ""
-            description: ""
-            name: N_COMMENT
-            nullable: true
-            primaryKey: false
-            sourceColumnReferences:
-              - columnReferences: []
-                transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d648fa6-7262-46eb-9d82-15ff419981a9
+          stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
+        config: {}
+        dataType: VARCHAR(152)
+        defaultValue: ""
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
             transform: ""
-            uniqueKey: false
-        join:
-          joinCondition: FROM {{ ref('SRC', 'NATION') }}
-      name: NATION
-      schema: ""
-      sqlType: Source
-      table: NATION
-      type: sourceInput
-    stepCounter: 5885f815-f161-46ab-8de3-d47ec6935357
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SRC', 'NATION') }}
+  name: NATION
+  schema: ""
+  sqlType: Source
+  table: NATION
+  type: sourceInput
+  version: 1
+type: Node
