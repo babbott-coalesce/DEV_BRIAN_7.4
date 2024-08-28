@@ -1,0 +1,14 @@
+fileVersion: 1
+id: "4"
+mappingDefinitions:
+  MULTISOURCE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: RAINFOREST_SAMPLE
+  PROD:
+    database: BRIAN_A
+    schema: PROD_STAGING
+  SRC:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+name: Environment
+type: Environment
