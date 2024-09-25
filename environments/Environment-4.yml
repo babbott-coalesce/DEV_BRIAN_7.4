@@ -1,6 +1,9 @@
 fileVersion: 1
 id: "4"
 mappingDefinitions:
+  BAD_PROD:
+    database: ""
+    schema: ""
   PROD:
     database: BRIAN_A
     schema: DEV_STAGING

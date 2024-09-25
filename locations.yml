@@ -1,6 +1,7 @@
 defaultStorageMapping: PROD
 fileVersion: 1
 locations:
+  - BAD_PROD
   - PROD
   - PROD_2
   - SRC
