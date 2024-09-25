@@ -30,7 +30,7 @@ operation:
           - columnReferences:
               - columnCounter: 285073d0-34ce-4f23-90b5-1e8d31446de5
                 stepCounter: 788e4793-5e86-4b10-9939-abee55e6d50b
-            transform: ""
+            transform: LTRIM(RTRIM("C_CUSTKEY"))
       - appliedColumnTests: {}
         columnReference:
           columnCounter: aa75e3d4-1693-4aae-838c-d5ba8dd7ceff
