@@ -4,9 +4,6 @@ mappingDefinitions:
   PROD:
     database: BRIAN_A
     schema: DEV_STAGING
-  PROD_2:
-    database: BRIAN_A
-    schema: QA_STAGING
   SRC:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
