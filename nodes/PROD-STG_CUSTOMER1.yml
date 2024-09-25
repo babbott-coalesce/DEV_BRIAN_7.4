@@ -142,9 +142,11 @@ operation:
         join:
           joinCondition: |-
             FROM {{ ref('SRC', 'CUSTOMER') }} "CUSTOMER"
-            inner join {{ ref_no_link('STG_CUSTOMER2', 'STG_CUSTOMER1') }} "STG_CUSTOMER1"
+            inner join {{ ref_no_link('SRC', 'STG_CUSTOMER1') }} "STG_CUSTOMER1"
         name: STG_CUSTOMER1
-        noLinkRefs: []
+        noLinkRefs:
+          - locationName: SRC
+            nodeName: STG_CUSTOMER1
   name: STG_CUSTOMER1
   overrideSQL: false
   schema: ""
