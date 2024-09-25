@@ -2,13 +2,10 @@ fileVersion: 1
 id: "4"
 mappingDefinitions:
   PROD:
-    database: QA_DEPLOY_PHASES
-    schema: QA_DEPLOY_PHASE
+    database: BRIAN_A
+    schema: DEV_STAGING
   SRC:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
-  STG2:
-    database: QA_DEPLOY_PHASES2
-    schema: QA_DEPLOY_PHASE_2
 name: Environment
 type: Environment
