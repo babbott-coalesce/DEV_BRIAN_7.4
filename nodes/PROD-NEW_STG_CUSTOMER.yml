@@ -7,7 +7,7 @@ operation:
   deployEnabled: true
   description: ""
   isMultisource: false
-  locationName: BAD_PROD
+  locationName: PROD
   materializationType: table
   metadata:
     appliedNodeTests: []
