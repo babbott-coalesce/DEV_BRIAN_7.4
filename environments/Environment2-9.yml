@@ -1,0 +1,14 @@
+fileVersion: 1
+id: "9"
+mappingDefinitions:
+  PROD:
+    database: BRIAN_A
+    schema: DEV_STAGING
+  PROD_2:
+    database: BRIAN_A
+    schema: QA_STAGING
+  SRC:
+    database: BOOTSTRAP_DB_Mike_McCune_1723583580938
+    schema: PUBLIC
+name: Environment 2
+type: Environment
