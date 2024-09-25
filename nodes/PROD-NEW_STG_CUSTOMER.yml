@@ -4,7 +4,7 @@ name: NEW_STG_CUSTOMER
 operation:
   config: {}
   database: ""
-  deployEnabled: true
+  deployEnabled: false
   description: ""
   isMultisource: false
   locationName: PROD
