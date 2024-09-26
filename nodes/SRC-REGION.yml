@@ -1,0 +1,77 @@
+fileVersion: 1
+id: a12f50d9-d191-4fc0-8bf1-c37b6f4cfe56
+name: REGION
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bacb360b-30aa-4e8f-bc63-bc80222df17d
+          stepCounter: a12f50d9-d191-4fc0-8bf1-c37b6f4cfe56
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: R_REGIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6c062e5-0c08-412e-9045-e4c645fcf566
+          stepCounter: a12f50d9-d191-4fc0-8bf1-c37b6f4cfe56
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: R_NAME
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e30ebeb1-4c1e-4283-912d-5cb1af001d60
+          stepCounter: a12f50d9-d191-4fc0-8bf1-c37b6f4cfe56
+        config: {}
+        dataType: VARCHAR(152)
+        defaultValue: ""
+        description: ""
+        name: R_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SRC', 'REGION') }}
+  name: REGION
+  schema: ""
+  sqlType: Source
+  table: REGION
+  type: sourceInput
+  version: 1
+type: Node
