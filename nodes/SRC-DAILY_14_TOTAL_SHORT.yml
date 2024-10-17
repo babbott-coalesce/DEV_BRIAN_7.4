@@ -1,5 +1,5 @@
 fileVersion: 1
-id: f8bd1fa8-6e8a-45ed-876a-8068a9fe669f
+id: 625f92e6-cbfe-49bb-a1b0-00a7e232131f
 name: DAILY_14_TOTAL_SHORT
 operation:
   database: ""
@@ -14,8 +14,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: e7bbf305-8c0e-4ba3-8c5b-c2684542c9cd
-          stepCounter: f8bd1fa8-6e8a-45ed-876a-8068a9fe669f
+          columnCounter: 5f21f8b4-ba1a-4773-9630-31f921dc8f15
+          stepCounter: 625f92e6-cbfe-49bb-a1b0-00a7e232131f
         config: {}
         dataType: VARIANT
         defaultValue: ""
@@ -33,8 +33,8 @@ operation:
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 6eb61f4f-c255-48ad-a208-3475f50eacd7
-          stepCounter: f8bd1fa8-6e8a-45ed-876a-8068a9fe669f
+          columnCounter: b8d113c4-e5ff-4f06-850d-d1ae2a00e79e
+          stepCounter: 625f92e6-cbfe-49bb-a1b0-00a7e232131f
         config: {}
         dataType: TIMESTAMP_NTZ(9)
         defaultValue: ""

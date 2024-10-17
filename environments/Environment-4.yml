@@ -3,7 +3,7 @@ id: "4"
 mappingDefinitions:
   PROD:
     database: BRIAN_A
-    schema: PROD_RAW
+    schema: DEV_STAGING
   SRC:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
